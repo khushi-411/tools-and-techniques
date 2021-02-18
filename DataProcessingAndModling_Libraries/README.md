@@ -1,6 +1,8 @@
 ## **Data Processing**
 
-The process of converting raw data to usable form is known as data processing. Steps for Data Processing :
+The process of converting raw data to usable form is known as `Data Processing`. 
+
+Steps for Data Processing :
 
 * Data Collection
 * Storage of Data
@@ -17,7 +19,7 @@ The process of converting raw data to usable form is known as data processing. S
 
 ## **Data Model**
 
-The Data Model is defined as an abstract model that organizes data description, data semantics, and consistency constraints of data.
+The `Data Model` is defined as an abstract model that organizes data description, data semantics, and consistency constraints of data.
 
 ### **Importance**
 

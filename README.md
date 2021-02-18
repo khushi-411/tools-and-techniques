@@ -1,5 +1,4 @@
 # Python-Libraries
---
 
 This repository consists of brief overview of python libraries.
 

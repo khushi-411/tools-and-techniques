@@ -25,5 +25,4 @@ The Data Model is defined as an abstract model that organizes data description, 
 * Ensures that all data objects required by the database are accurately represented. Omission of data will lead to creation of faulty reports and produce incorrect results.
 * Helps to design databases.
 
---
 These techniques can be implemented through the libraries mentioned libraries in this folder.

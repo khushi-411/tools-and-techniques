@@ -1,0 +1,142 @@
+For Creation Operation:
+
+* eye
+* from_numpy
+* linspace
+* logspace          
+* ones
+* ones_like
+* arange
+* range                   
+* zeros
+* zeros_like
+
+
+For Indexing, Slicing, Joining, Mutating Operation:
+
+* cat
+* chunk             
+* gather
+* index_select
+* masked_select
+* nonzero
+* split            
+* squeeze
+* stack
+* t              - Transpose a 2-D tensor
+* take
+* transpose
+* unbind         - Removes a tensor dimension
+* unsqueeze
+* where          - Select x or y Tensor elements based on condition Tensor c
+
+
+For Random sampling:
+
+* manual_seed    - Set a manual seed
+* initial_seed   - Randomize a seed by the system
+* get_rng_state
+* set_rng_state
+* default_generator
+* bernoulli
+* multinomial
+* normal
+* rand
+* randn
+* randperm
+
+
+For In-place random sampling:
+
+- :func:`torch.Tensor.bernoulli_` - in-place version of :func:`torch.bernoulli`
+- :func:`torch.Tensor.cauchy_` - numbers drawn from the Cauchy distribution
+- :func:`torch.Tensor.exponential_` - numbers drawn from the exponential distribution
+- :func:`torch.Tensor.geometric_` - elements drawn from the geometric distribution
+- :func:`torch.Tensor.log_normal_` - samples from the log-normal distribution
+- :func:`torch.Tensor.normal_` - in-place version of :func:`torch.normal`
+- :func:`torch.Tensor.random_` - numbers sampled from the discrete uniform distribution
+- :func:`torch.Tensor.uniform_` - numbers sampled from the continuous uniform distribution
+
+
+For Pointwise Operation:
+
+.. autofunction:: abs
+.. autofunction:: acos           - arc cosine
+.. autofunction:: add
+.. autofunction:: addcdiv        - element wise: t1 + s * t2/t3
+.. autofunction:: addcmul        - element wise: t1 + s * t2 * t3
+.. autofunction:: asin           - arc sin
+.. autofunction:: atan
+.. autofunction:: atan2
+.. autofunction:: ceil           - ceiling
+.. autofunction:: clamp          - clamp elements into a range
+.. autofunction:: cos
+.. autofunction:: cosh
+.. autofunction:: div            - divide
+.. autofunction:: erf            - Gaussian error functiom
+.. autofunction:: erfinv         - Inverse
+.. autofunction:: exp
+.. autofunction:: expm1          - exponential of each element minus 1
+.. autofunction:: floor          
+.. autofunction:: fmod           - element wise remainder of division
+.. autofunction:: frac           - fraction part 3.4 -> 0.4
+.. autofunction:: lerp           - linear interpolation
+.. autofunction:: log            - natural log
+.. autofunction:: log1p          - y = log(1 + x)
+.. autofunction:: mul            - multiple
+.. autofunction:: neg 
+.. autofunction:: pow
+.. autofunction:: reciprocal     - 1/x
+.. autofunction:: remainder      - remainder of division
+.. autofunction:: round
+.. autofunction:: rsqrt          - the reciprocal of the square-root 
+.. autofunction:: sigmoid        - sigmode(x)
+.. autofunction:: sign
+.. autofunction:: sin
+.. autofunction:: sinh
+.. autofunction:: sqrt
+.. autofunction:: tan
+.. autofunction:: tanh
+.. autofunction:: trunc          - truncated integer
+
+
+For Reduction Operation:
+
+.. autofunction:: cumprod        - accumulate product of elements x1*x2*x3...
+.. autofunction:: cumsum
+.. autofunction:: dist           - L-p norm
+.. autofunction:: mean
+.. autofunction:: median
+.. autofunction:: mode
+.. autofunction:: norm           - L-p norm
+.. autofunction:: prod           - accumulate product
+.. autofunction:: std            - compute standard deviation
+.. autofunction:: sum
+.. autofunction:: var            - variance of all elements
+
+
+For Comparison Operation:
+
+.. autofunction:: eq             - Compare elements
+.. autofunction:: equal          - True of 2 tensors are the same 
+.. autofunction:: ge             - Element-wise greater or equal comparison
+.. autofunction:: gt
+.. autofunction:: kthvalue       - k-th element
+.. autofunction:: le
+.. autofunction:: lt
+.. autofunction:: max
+.. autofunction:: min
+.. autofunction:: ne
+.. autofunction:: sort
+.. autofunction:: topk           - top k
+
+
+Other Operations:
+
+.. autofunction:: cross           - cross product
+.. autofunction:: diag            - convert vector to diagonal matrix
+.. autofunction:: histc           - histogram
+.. autofunction:: renorm          - renormalize a tensor
+.. autofunction:: trace           - tr(M)
+.. autofunction:: tril            - lower triangle of 2-D matrix 
+.. autofunction:: triu            - uppser triangle

@@ -14,3 +14,7 @@ Contents :
 * Matplotlib
 * Seaborn
 * Bokeh
+
+**Deep Learning Libraries**
+
+* PyTorch
